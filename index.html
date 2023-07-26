@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/zyro-image-removebg.png"
+      type="image/x-icon"
+    />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Cv-ByronGomez</title>
+  </head>
+
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l__header" id="header">
+      <nav class="nav bd__container">
+        <a href="#" class="nav__logo">Inicio</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active__link">
+                <i class="bx bx-home nav__icon"></i>Inicio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#social" class="nav__link">
+                <i class="bx bxs-contact nav__icon" style="font-size: 2em;"></i>Social
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bxs-receipt nav__icon"></i>Habilidades
+              </a>
+              <li class="nav__item">
+                <a href="#certificates" class="nav__link">
+                  <i class="bx bx-award nav__icon"></i>Certificados
+                </a>
+              </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Perfil
+              </a>
+            </li>
+            
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Educación
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#cursos" class="nav__link">
+                <i class="bx bx-book-open nav__icon"></i>Cursos
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#otros-datos" class="nav__link">
+                <i class="bx bxs-add-to-queue nav__icon"></i>Datos Adicionales
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l__main bd__container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd__grid">
+              <div class="home__data bd__grid">
+                <img src="assets/img/foto_personal.png" alt="" class="home__img" />
+                
+
+                <h1 class="home__title"><b>Byron</b<b>Josue</b<b>Gomez</b<b>Monge</b></h1>
+                <h3 class="home__profession">Programador</h3>
+
+                <!-- Button to generate and download the pdf. Available for desktop. -->
+                <div>
+                  <a
+                    download=""
+                    href="/assets/pdf/CV-ByronGomez.pdf"
+                    class="home__button-movil"
+                    >Descargar</a
+                  >
+                </div>
+              </div>
+
+              <h2 class="section__title">Informacion Personal</h2>
+              <div class="home__address bd__grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> El Salvador, San Salvador
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> byronxgomez127@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +503 7657-6401
+                </span>
+
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change__theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <i
+              class="bx bx-download generate__pdf"
+              title="Generar PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section" id="social" >
+            <h2 class="section__title" >SOCIAL</h2>
+
+            <div class="social__container bd__grid">
+              <a
+                href="https://mail.google.com/mail/u/1/#search/byronxgomez127%40gmail.com"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-google"></i> byronxgomez127@gmail.com
+              </a>
+              <a
+              href="https://www.instagram.com/byronxgomezz/"
+              target="_blank"
+              class="social__link"
+            >
+              <i class="bx bxl-instagram"></i> byronxgomezz
+            </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100093679633830" 
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-facebook"></i> Byron Gomez
+              </a>
+              <a
+                href="https://github.com/Byron-Gomez"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> Byron-Gomez
+              </a>
+            </div>
+          </section>
+
+     
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+
+            <div class="skills__container bd__grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Javascript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Java
+                </li>
+                <li class="skills__name"> 
+                  <span class="skills__circle"></span> Spring
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> C# 
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> MySQL, PostgreSQL, Oracle
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      
+        <div class="resume__right">
+               <!--========== PROFILE ==========-->
+               <section class="profile section" id="profile">
+                <h2 class="section__title">Perfil</h2>
+    
+                <p class="profile__description">
+                  He obtenido mi formación académica tanto en la Universidad de El Salvador como en
+            INSAFORP, donde he tomado cursos relevantes que se alinean con los estándares más recientes
+            y tecnologías en el mundo laboral actual. Mi experiencia en el campo de la programación.
+            ha sido enriquecedor y emocionante; Disfruto explorando las diversas tecnologías.
+            disponibles y creando proyectos innovadores. Sentir satisfacción por el trabajo realizado es verdaderamente gratificante.
+            Mi objetivo profesional es colaborar eficazmente con mi equipo, fomentando la apertura
+            comunicación y cooperación sólida, para desarrollar proyectos de alta calidad.
+                </p>
+              </section>
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section__title">Educación</h2>
+
+            <div class="education__container bd__grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd__grid">
+                  <h3 class="education__title">
+                    Bachierato General
+                  </h3>
+                  <span class="education__studies">
+                    Liceo Cristiano Reverendo Juan Bueno "La Coruña"  
+                  </span>
+                  <span class="education__year">2021</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd__grid">
+                  <h3 class="education__title">Ingeniería en Sistemas Informaticos </h3>
+                  <span class="education__studies">
+                    Universidad Nacional de El Salvador
+                  </span>
+                  <span class="education__year">Cursando</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        
+          <!--========== CURSOS ==========-->
+          <section class="cursos section" id="cursos">
+            <h2 class="section__title">Cursos</h2>
+
+            <div class="curso__container bd__grid">
+             
+              <div class="curso__content">
+                <h3 class="curso__title">
+                  Java Fundamentals
+                </h3>
+                <p class="curso__description">
+                 INSAFORP
+                </p>
+              </div>
+
+              <div class="curso__content">
+                <h3 class="curso__title">
+                  Java con Sprinboot                  
+                </h3>
+                <p class="curso__description">
+                  INSAFORP                </p>
+              </div>
+              <div class="curso__content">
+                <h3 class="curso__title">
+                  FrontEnd Con React
+                </h3>
+                <p class="curso__description">
+                  INSAFORP                </p>
+              </div>
+              <div class="curso__content">
+                <h3 class="curso__title">
+                  Ciber Seguridad
+                </h3>
+                <p class="curso__description">
+                  INSAFORP                </p>
+              </div>
+              <div class="curso__content">
+                <h3 class="curso__title">
+                  Base de Datos
+                </h3>
+                <p class="curso__description">
+                  INSAFORP                </p>
+              </div>
+            </div>
+            <div class="curso__content">
+              <h3 class="curso__title">
+                Apps Moviles
+              </h3>
+              <p class="curso__description">
+                INSAFORP                </p>
+            </div>
+          </section>
+ <!--========== SKILLS  ==========-->
+ <section class="otros-datos section" id="otros-datos">
+  <h2 class="section__title">Datos Adicionales</h2>
+
+  <div class="skills__container bd__grid">
+    <ul class="skills__data">
+      <li class="skills__name">
+        <span class="skills__circle"></span> Trabajo en equipo
+      </li>
+      <li class="skills__name">
+        <span class="skills__circle"></span> Deseo de adquirir nuevos conocimientos                                
+    </ul>
+
+    <ul class="skills__data">
+      <li class="skills__name">
+        <span class="skills__circle"></span> Pensamiento crítico
+      </li>
+      <li class="skills__name"> 
+        <span class="skills__circle"></span> Organización y planificación
+      </li>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+ççu78ç</html>
